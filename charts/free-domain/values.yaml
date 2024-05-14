@@ -4,6 +4,23 @@
 
 replicaCount: 1
 
+freeDomain:
+  service:
+    port: 8080
+  logger:
+    level: debug
+  domains:
+    - name: example.com
+  dnspod:
+    secretKey: example # SecretId
+    secretValue: example # SecretKey
+  account:
+    host: example
+    secretKey: example
+    secretValue: example
+  database:
+    uri: postgresql://postgres:password@postgresql/free-domain
+
 image:
   repository: ghcr.io/taicode-labs/free-domain
   pullPolicy: IfNotPresent
