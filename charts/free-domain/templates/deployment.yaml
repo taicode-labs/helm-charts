@@ -48,7 +48,7 @@ spec:
             - name: CONFIG
               value: /workspace/config/config.yaml
           ports:
-            - name: http
+            - name: grpc
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           resources:
