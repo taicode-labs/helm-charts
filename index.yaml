@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   free-domain:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2024-05-17T10:14:55.740907066Z"
+    description: A Free domain service chart for Kubernetes
+    digest: 6813ed73baf99690fceef6b731727b80af2a650dce94f833d77e2380fe06cbc2
+    name: free-domain
+    type: application
+    urls:
+    - https://github.com/taicode-labs/helm-charts/releases/download/free-domain-0.1.2/free-domain-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2024-05-15T02:10:48.907019826Z"
     description: A Free domain service chart for Kubernetes
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/taicode-labs/helm-charts/releases/download/free-domain-0.1.0/free-domain-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-15T02:10:48.90702749Z"
+generated: "2024-05-17T10:14:55.740944677Z"
